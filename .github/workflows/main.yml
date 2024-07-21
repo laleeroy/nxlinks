@@ -23,13 +23,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Run cfw-update script
+      - name: Run fw-update script
         run: |
-          python cfw-update.py
+          python fw-update.py
           git config --global user.name '8Bit Gamer'
           git config --global user.email '8bitgamer2024@gmail.com'
           git add updates.json
-          git commit -m 'CFW Update' || echo "No changes to commit"
+          git commit -m 'CFW/SFW Update' || echo "No changes to commit"
           git push
 
       - name: Run shop-update script
