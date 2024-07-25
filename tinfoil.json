@@ -1,6 +1,6 @@
 {
     "locations": [
-        "https://nx.ghostland.at"
+	    {"url": "https://nx.ghostland.at", "title": "Ghost eShop", "action": "add"}
     ],
     "success": "Automated shop update by 8Bit Gamer\n\n\nFor JB unit/service, you can reach me at the following links\nFB Page: fb.com/8bitgamer2024\nShopee: shopee.ph/8bitgamer"
 }
