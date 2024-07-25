@@ -14,12 +14,14 @@ readme_content = response.text
 # Extract the "## Shop Links" section
 shop_links_section = re.search(r'## Shop Links\n(.*?)(\n##|\Z)', readme_content, re.DOTALL).group(1)
 
-# Extract shop links from the "## Shop Links" section
-shop_links = re.findall(r'Protocol: https\nHost: (.*?)\nTitle:', shop_links_section)
-new_locations = [f"https://{link}" for link in shop_links]
+# Extract shop links and titles from the "## Shop Links" section
+shop_links = re.findall(r'Protocol: https\nHost: (.*?)\nTitle: (.*?)\n', shop_links_section)
+new_locations = [{"url": f"https://{link[0]}", "title": link[1], "action": "add"} for link in shop_links]
 
 # Update the locations in the JSON file
-data['locations'] = [link for link in data['locations'] if link in new_locations] + [link for link in new_locations if link not in data['locations']]
+existing_urls = [location["url"] for location in data["locations"]]
+data['locations'] = [location for location in data['locations'] if location["url"] in existing_urls] + \
+                    [location for location in new_locations if location["url"] not in existing_urls]
 
 # Write updated JSON to file
 with open('tinfoil.json', 'w') as f:
