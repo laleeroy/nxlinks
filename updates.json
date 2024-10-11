@@ -6,6 +6,12 @@
             "8BP Caldereta - Atmosphere 1.7.1 & Hekate 6.2.0": "https://github.com/laleeroy/swcfw/releases/download/AMS-1.7.0/swcfw-atmosphere-c.zip",
             "8BP Bulalo - Atmosphere 1.7.0 & Hekate 6.1.1": "https://github.com/laleeroy/swcfw/releases/download/AMS-1.7.0/swcfw-atmosphere-b.zip",
             "8BP Adobo - Atmosphere 1.7.0 & Hekate 6.1.1": "https://github.com/laleeroy/swcfw/releases/download/AMS-1.7.0/swcfw-atmosphere.zip"
+	},
+        "Homebrews": {
+            "Tinfoil Shop (Public)": "https://github.com/laleeroy/nxlinks/releases/download/HBs-Configs/tinfoil_public.zip",
+            "Tinfoil Shop (Private)": "https://github.com/laleeroy/nxlinks/releases/download/HBs-Configs/tinfoil_private.zip",
+            "DBI Server (Private)": "https://github.com/laleeroy/nxlinks/releases/download/HBs-Configs/dbi_private.zip",
+            "Switchfin": "https://github.com/laleeroy/nxlinks/releases/download/HBs-Configs/switchfin.zip"
         }
     },
     "firmwares": {
