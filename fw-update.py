@@ -80,10 +80,18 @@ def update_firmware_releases(updates, firmware_releases):
         updates['firmwares'] = {}
 
     current_firmwares = updates['firmwares']
+
+    # Add new entries, if any
     new_entries = {title: url for title, url in firmware_releases.items() if title not in current_firmwares}
-    
+
     if new_entries:
         updates['firmwares'].update(new_entries)
+
+        # Sort the firmwares in descending order based on the version number
+        sorted_firmwares = dict(
+            sorted(updates['firmwares'].items(), key=lambda x: [int(i) for i in re.findall(r'\d+', x[0])], reverse=True)
+        )
+        updates['firmwares'] = sorted_firmwares
         return True
 
     return False
