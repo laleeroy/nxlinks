@@ -1,13 +1,13 @@
 {
     "cfws": {
         "Atmosphere": {
-            "8BP Test [Latest] - For Firmware 19.0.0 and below": "https://github.com/laleeroy/nxcfw/releases/download/Galantina/8BP-Galantina.zip",
-            "FW 19.X.X 8BP F-Beta - Atmosphere 1.8.0 & Hekate 6.2.2": "https://github.com/laleeroy/nxcfw/releases/download/F-Beta/8BP-F-Beta1.zip",
-            "FW 18.1.X 8BP Estofado - Atmosphere 1.7.1 & Hekate 6.2.1": "https://github.com/laleeroy/nxcfw/releases/download/Estofado/8BP-Estofado.zip",
-            "FW 18.1.X 8BP Dinuguan - Atmosphere 1.7.1 & Hekate 6.2.0": "https://github.com/laleeroy/swcfw/releases/download/AMS-1.7.0/swcfw-atmosphere-d.zip",
-            "FW 18.1.X 8BP Caldereta - Atmosphere 1.7.1 & Hekate 6.2.0": "https://github.com/laleeroy/swcfw/releases/download/AMS-1.7.0/swcfw-atmosphere-c.zip",
-            "FW 18.0.X 8BP Bulalo - Atmosphere 1.7.0 & Hekate 6.1.1": "https://github.com/laleeroy/swcfw/releases/download/AMS-1.7.0/swcfw-atmosphere-b.zip",
-            "FW 18.0.X 8BP Adobo - Atmosphere 1.7.0 & Hekate 6.1.1": "https://github.com/laleeroy/swcfw/releases/download/AMS-1.7.0/swcfw-atmosphere.zip"
+            "8BP Galantina [Latest] - For Firmware 19.0.1 & Below | AMS 1.8.0 | Hekate 6.2.2": "https://github.com/laleeroy/nxcfw/releases/download/Galantina/8BP-Galantina.zip",
+            "8BP F-Beta - For Firmware 19.0.0 & Below | AMS 1.8.0 | Hekate 6.2.2": "https://github.com/laleeroy/nxcfw/releases/download/F-Beta/8BP-F-Beta1.zip",
+            "8BP Estofado - For Firmware 18.1.0 & Below | AMS 1.7.1 | Hekate 6.2.1": "https://github.com/laleeroy/nxcfw/releases/download/Estofado/8BP-Estofado.zip",
+            "8BP Dinuguan - For Firmware 18.1.0 & Below | AMS 1.7.1 | Hekate 6.2.0": "https://github.com/laleeroy/swcfw/releases/download/AMS-1.7.0/swcfw-atmosphere-d.zip",
+            "8BP Caldereta - For Firmware 18.1.0 & Below | AMS 1.7.1 | Hekate 6.2.0": "https://github.com/laleeroy/swcfw/releases/download/AMS-1.7.0/swcfw-atmosphere-c.zip",
+            "8BP Bulalo - For Firmware 18.0.0 & Below | AMS 1.7.0 | Hekate 6.1.1": "https://github.com/laleeroy/swcfw/releases/download/AMS-1.7.0/swcfw-atmosphere-b.zip",
+            "8BP Adobo - For Firmware 18.0.0 & Below | AMS 1.7.0 | Hekate 6.1.1": "https://github.com/laleeroy/swcfw/releases/download/AMS-1.7.0/swcfw-atmosphere.zip"
         },
         "Homebrews": {
             "Tinfoil Shop (Public)": "https://github.com/laleeroy/nxlinks/releases/download/HBs-Configs/tinfoil_public.zip",
