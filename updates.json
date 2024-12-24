@@ -18,6 +18,9 @@
             "Lakka": "https://github.com/laleeroy/nxlinks/releases/download/HBs-Configs/lakka.zip"
         }
     },
+    "hekate": {
+        "hekate_ctcaer_6.2.2_Nyx_1.6.4.zip": "https://github.com/CTCaer/hekate/releases/download/v6.2.2/hekate_ctcaer_6.2.2_Nyx_1.6.4.zip"
+    },
     "firmwares": {
         "Firmware 19.0.1": "https://github.com/THZoria/NX_Firmware/releases/download/19.0.1/Firmware.19.0.1.zip",
         "Firmware 19.0.0": "https://github.com/THZoria/NX_Firmware/releases/download/19.0.0/Firmware.19.0.0.zip",
