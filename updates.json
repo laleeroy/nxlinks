@@ -19,7 +19,7 @@
         }
     },
     "scripts": {
-        "hekate_ctcaer_6.2.2_Nyx_1.6.4.zip": "https://github.com/CTCaer/hekate/releases/download/v6.2.2/hekate_ctcaer_6.2.2_Nyx_1.6.4.zip"
+        "Updater": "http://8bitgamer.ddns.net:6969/updater.zip"
     },
     "hekate": {
         "hekate_ctcaer_6.2.2_Nyx_1.6.4.zip": "https://github.com/CTCaer/hekate/releases/download/v6.2.2/hekate_ctcaer_6.2.2_Nyx_1.6.4.zip"
