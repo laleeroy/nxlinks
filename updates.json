@@ -8,7 +8,7 @@
             "8BP Caldereta - For Firmware 18.1.0 & Below | AMS 1.7.1 | Hekate 6.2.0": "https://github.com/laleeroy/swcfw/releases/download/AMS-1.7.0/swcfw-atmosphere-c.zip",
             "8BP Bulalo - For Firmware 18.0.0 & Below | AMS 1.7.0 | Hekate 6.1.1": "https://github.com/laleeroy/swcfw/releases/download/AMS-1.7.0/swcfw-atmosphere-b.zip",
             "8BP Adobo - For Firmware 18.0.0 & Below | AMS 1.7.0 | Hekate 6.1.1": "https://github.com/laleeroy/swcfw/releases/download/AMS-1.7.0/swcfw-atmosphere.zip",
-            "TEST! 8BP Unknown": "https://github.com/laleeroy/nxcfw/releases/download/T4/8BP-Unknown.zip"
+            "8BP Unknown": "https://github.com/laleeroy/nxcfw/releases/download/T6/8BP-T6.zip"
         }
     },
     "hekate": {
