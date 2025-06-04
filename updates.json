@@ -1,13 +1,14 @@
 {
     "cfws": {
         "Atmosphere": {
-            "8BP Galantina - For Firmware 19.0.1 & Below | AMS 1.8.0 | Hekate 6.2.2": "https://github.com/laleeroy/nx-cfw/releases/download/1.5/8BP-Galantina-New2.zip",
-            "8BP F-Beta - For Firmware 19.0.0 & Below | AMS 1.8.0 | Hekate 6.2.2": "https://github.com/laleeroy/nxcfw/releases/download/F-Beta/8BP-F-Beta1.zip",
-            "8BP Estofado - For Firmware 18.1.0 & Below | AMS 1.7.1 | Hekate 6.2.1": "https://github.com/laleeroy/nxcfw/releases/download/Estofado/8BP-Estofado.zip",
-            "8BP Dinuguan - For Firmware 18.1.0 & Below | AMS 1.7.1 | Hekate 6.2.0": "https://github.com/laleeroy/swcfw/releases/download/AMS-1.7.0/swcfw-atmosphere-d.zip",
-            "8BP Caldereta - For Firmware 18.1.0 & Below | AMS 1.7.1 | Hekate 6.2.0": "https://github.com/laleeroy/swcfw/releases/download/AMS-1.7.0/swcfw-atmosphere-c.zip",
-            "8BP Bulalo - For Firmware 18.0.0 & Below | AMS 1.7.0 | Hekate 6.1.1": "https://github.com/laleeroy/swcfw/releases/download/AMS-1.7.0/swcfw-atmosphere-b.zip",
-            "8BP Adobo - For Firmware 18.0.0 & Below | AMS 1.7.0 | Hekate 6.1.1": "https://github.com/laleeroy/swcfw/releases/download/AMS-1.7.0/swcfw-atmosphere.zip",
+            "8BP Hardinera - For Firmware 20.1.1 & Below": "https://github.com/laleeroy/nxcfw/releases/download/Hardinera/8BP-Hardinera.zip",
+            "8BP Galantina - For Firmware 19.0.1 & Below": "https://github.com/laleeroy/nx-cfw/releases/download/1.5/8BP-Galantina-New2.zip",
+            "8BP F-Beta - For Firmware 19.0.0 & Below": "https://github.com/laleeroy/nxcfw/releases/download/F-Beta/8BP-F-Beta1.zip",
+            "8BP Estofado - For Firmware 18.1.0 & Below": "https://github.com/laleeroy/nxcfw/releases/download/Estofado/8BP-Estofado.zip",
+            "8BP Dinuguan - For Firmware 18.1.0 & Below": "https://github.com/laleeroy/swcfw/releases/download/AMS-1.7.0/swcfw-atmosphere-d.zip",
+            "8BP Caldereta - For Firmware 18.1.0 & Below": "https://github.com/laleeroy/swcfw/releases/download/AMS-1.7.0/swcfw-atmosphere-c.zip",
+            "8BP Bulalo - For Firmware 18.0.0 & Below": "https://github.com/laleeroy/swcfw/releases/download/AMS-1.7.0/swcfw-atmosphere-b.zip",
+            "8BP Adobo - For Firmware 18.0.0 & Below": "https://github.com/laleeroy/swcfw/releases/download/AMS-1.7.0/swcfw-atmosphere.zip",
             "8BP Unknown": "https://github.com/laleeroy/nxcfw/releases/download/T6/8BP-T6.zip"
         }
     },
@@ -15,6 +16,10 @@
         "hekate_ctcaer_6.2.2_Nyx_1.6.4.zip": "https://github.com/CTCaer/hekate/releases/download/v6.2.2/hekate_ctcaer_6.2.2_Nyx_1.6.4.zip"
     },
     "firmwares": {
+        "Firmware 20.1.1": "https://github.com/THZoria/NX_Firmware/releases/download/20.1.1/Firmware.20.1.1.zip",
+        "Firmware 20.1.0": "https://github.com/THZoria/NX_Firmware/releases/download/20.1.0/Firmware.20.1.0.zip",
+        "Firmware 20.0.1": "https://github.com/THZoria/NX_Firmware/releases/download/20.0.1/Firmware.20.0.1.zip",
+        "Firmware 20.0.0": "https://github.com/THZoria/NX_Firmware/releases/download/20.0.0/Firmware.20.0.0.zip",
         "Firmware 19.0.1": "https://github.com/THZoria/NX_Firmware/releases/download/19.0.1/Firmware.19.0.1.zip",
         "Firmware 19.0.0": "https://github.com/THZoria/NX_Firmware/releases/download/19.0.0/Firmware.19.0.0.zip",
         "Firmware 18.1.0": "https://github.com/THZoria/NX_Firmware/releases/download/18.1.0/Firmware.18.1.0.zip",
