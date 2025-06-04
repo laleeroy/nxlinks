@@ -1,0 +1,44 @@
+name: Release
+on:
+  workflow_dispatch:
+
+jobs:
+  Building:
+    runs-on: ubuntu-latest
+    container: devkitpro/devkita64
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: laleeroy/8bit-updater
+          ref: stable
+          path: 8bit-updater
+          submodules: recursive
+          token: ${{ secrets.GH_TOKEN }}
+
+      - name: Install Dependencies
+        run: |
+          sudo apt update -y
+          sudo apt install build-essential -y
+
+      - name: Extract Versiom
+        id: get_version
+        run: |
+          VERSION=$(grep -m 1 '^APP_VERSION\s*:=\s*' Makefile | cut -d':' -f2 | cut -d'=' -f2 | tr -d '[:space:]')
+          echo "APP_VERSION=$VERSION" >> $GITHUB_OUTPUT # This sets the output variable
+          echo "Extracted APP_VERSION: $VERSION" # Optional: For logging in the workflow run
+        working-directory: 8bit-updater
+
+      - name: Compiling
+        run: |
+          make -j$(nproc)
+          zip -j -q 8bit-updater.zip 8bit-updater.nro
+        working-directory: 8bit-updater
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: 8bit-updater/8bit-updater.zip
+          tag_name: ${{ steps.get_version.outputs.APP_VERSION }}
+          name: 8Bit-Updater v${{ steps.get_version.outputs.APP_VERSION }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
