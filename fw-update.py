@@ -67,7 +67,7 @@ def update_json_with_latest_release(updates, tag_name, title, download_url):
         # Remove extra spaces in keys
         updated_entries = {key.replace('  ', ' ').strip(): value for key, value in updated_entries.items()}
         
-        new_entry_name = f'8BP {tag_name} [Latest] - {title}'
+        new_entry_name = f'8BP {tag_name} - {title}'
         updated_entries = {new_entry_name: download_url, **updated_entries}
         updates['cfws']['Atmosphere'] = updated_entries
 
