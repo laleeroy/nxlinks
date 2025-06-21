@@ -6,7 +6,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: ghcr.io/${{ github.repository_owner }}/switch-stuffs-dependencies:latest
 
     steps:
       - name: Checkout nxlinks
