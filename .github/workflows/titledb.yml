@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  Generating Metadata:
+  Generating:
     runs-on: ubuntu-latest
 
     steps:
