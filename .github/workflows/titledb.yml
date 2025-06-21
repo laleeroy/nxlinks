@@ -32,4 +32,7 @@ jobs:
       - name: Generate Metadata
         run: |
           git -C titledb pull
-          python3 nut/nut.py -U --import-region US --language en
+          cd nut
+          curl https://files.prodkeys.net/ProdKeys.net-v20.0.1.zip -so keys.zip
+          unzip keys.zip -x title.keys
+          python3 nut.py -U --import-region US --language en
