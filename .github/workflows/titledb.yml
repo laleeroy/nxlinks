@@ -1,0 +1,35 @@
+name: Meta
+
+on:
+  workflow_dispatch:
+
+jobs:
+  Generating:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout nxlinks
+        uses: actions/checkout@v4
+
+      - name: Checkout nut
+        uses: actions/checkout@v4
+        with:
+          repository: blawar/nut
+          path: nut
+
+      - name: Install Dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y libcurl4-openssl-dev libssl-dev python3-dev python3-pip
+          pip3 install -r nut/requirements.txt
+
+      - name: Generate Metadata
+        run: |
+          python3 nut.py -U --import-region US --language en
+        working-directory: nut
+
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: titledb-json
+          path: nut/titledb/titles.json
