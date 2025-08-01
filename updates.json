@@ -1,7 +1,8 @@
 {
     "cfws": {
         "Atmosphere": {
-            "8BP Hardinera - For Firmware 20.1.1 & Below": "https://github.com/laleeroy/nxcfw/releases/download/Hardinera/8BP-Hardinera.zip",
+            "8BP Inasal - For Firmware 20.3.0 & Below": "https://github.com/laleeroy/nxcfw/releases/download/Inasal/8BP-Inasal.zip",
+            "8BP Hardinera - For Firmware 20.1.5 & Below": "https://github.com/laleeroy/nxcfw/releases/download/Hardinera/8BP-Hardinera.zip",
             "8BP Galantina - For Firmware 19.0.1 & Below": "https://github.com/laleeroy/nx-cfw/releases/download/1.5/8BP-Galantina-New2.zip",
             "8BP F-Beta - For Firmware 19.0.0 & Below": "https://github.com/laleeroy/nxcfw/releases/download/F-Beta/8BP-F-Beta1.zip",
             "8BP Estofado - For Firmware 18.1.0 & Below": "https://github.com/laleeroy/nxcfw/releases/download/Estofado/8BP-Estofado.zip",
@@ -16,6 +17,8 @@
         "hekate_ctcaer_6.2.2_Nyx_1.6.4.zip": "https://github.com/CTCaer/hekate/releases/download/v6.2.2/hekate_ctcaer_6.2.2_Nyx_1.6.4.zip"
     },
     "firmwares": {
+        "Firmware 20.3.0": "https://github.com/THZoria/NX_Firmware/releases/download/20.3.0/Firmware.20.3.0.zip",
+        "Firmware 20.2.0": "https://github.com/THZoria/NX_Firmware/releases/download/20.2.0/Firmware.20.2.0.zip",
         "Firmware 20.1.5": "https://github.com/THZoria/NX_Firmware/releases/download/20.1.5/Firmware.20.1.5.zip",
         "Firmware 20.1.1": "https://github.com/THZoria/NX_Firmware/releases/download/20.1.1/Firmware.20.1.1.zip",
         "Firmware 20.1.0": "https://github.com/THZoria/NX_Firmware/releases/download/20.1.0/Firmware.20.1.0.zip",
