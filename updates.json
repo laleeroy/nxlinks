@@ -1,56 +1,13 @@
 {
     "cfws": {
         "Atmosphere": {
-            "8BP Kandingga - For Firmware 20.5.0 & Below": "https://github.com/laleeroy/nxcfw/releases/download/Kandingga/8BP-Kandingga+WB.zip",
-            "8BP Jamonado - For Firmware 20.4.0 & Below": "https://github.com/laleeroy/nxcfw/releases/download/Jamonado/8BP-Jamonado.zip",
-            "8BP Inasal - For Firmware 20.3.0 & Below": "https://github.com/laleeroy/nxcfw/releases/download/Inasal/8BP-Inasal.zip",
-            "8BP Hardinera - For Firmware 20.1.5 & Below": "https://github.com/laleeroy/nxcfw/releases/download/Hardinera/8BP-Hardinera.zip",
-            "8BP Galantina - For Firmware 19.0.1 & Below": "https://github.com/laleeroy/nxcfw/releases/download/Galantina/8BP-Galantina.zip",
-            "8BP F-Beta - For Firmware 19.0.0 & Below": "https://github.com/laleeroy/nxcfw/releases/download/F-Beta/8BP-F-Beta1.zip",
-            "8BP Estofado - For Firmware 18.1.0 & Below": "https://github.com/laleeroy/nxcfw/releases/download/Estofado/8BP-Estofado.zip",
-            "8BP Dinuguan - For Firmware 18.1.0 & Below": "https://github.com/laleeroy/swcfw/releases/download/AMS-1.7.0/swcfw-atmosphere-d.zip",
-            "8BP Caldereta - For Firmware 18.1.0 & Below": "https://github.com/laleeroy/swcfw/releases/download/AMS-1.7.0/swcfw-atmosphere-c.zip",
-            "8BP Bulalo - For Firmware 18.0.0 & Below": "https://github.com/laleeroy/swcfw/releases/download/AMS-1.7.0/swcfw-atmosphere-b.zip",
-            "8BP Adobo - For Firmware 18.0.0 & Below": "https://github.com/laleeroy/swcfw/releases/download/AMS-1.7.0/swcfw-atmosphere.zip",
-            "8BP Unknown": "https://github.com/laleeroy/nxcfw/releases/download/Kandingga/8BP-Unknown.zip"
+            "Update your app now bro!": "https://github.com/laleeroy/nxcfw/releases/download/Kandingga/8BP-Unknown.zip"
         }
     },
     "hekate": {
         "hekate_ctcaer_6.2.2_Nyx_1.6.4.zip": "https://github.com/CTCaer/hekate/releases/download/v6.2.2/hekate_ctcaer_6.2.2_Nyx_1.6.4.zip"
     },
     "firmwares": {
-        "Firmware 20.5.0": "https://github.com/THZoria/NX_Firmware/releases/download/20.5.0/Firmware.20.5.0.zip",
-        "Firmware 20.4.0": "https://github.com/THZoria/NX_Firmware/releases/download/20.4.0/Firmware.20.4.0.zip",
-        "Firmware 20.3.0": "https://github.com/THZoria/NX_Firmware/releases/download/20.3.0/Firmware.20.3.0.zip",
-        "Firmware 20.2.0": "https://github.com/THZoria/NX_Firmware/releases/download/20.2.0/Firmware.20.2.0.zip",
-        "Firmware 20.1.5": "https://github.com/THZoria/NX_Firmware/releases/download/20.1.5/Firmware.20.1.5.zip",
-        "Firmware 20.1.1": "https://github.com/THZoria/NX_Firmware/releases/download/20.1.1/Firmware.20.1.1.zip",
-        "Firmware 20.1.0": "https://github.com/THZoria/NX_Firmware/releases/download/20.1.0/Firmware.20.1.0.zip",
-        "Firmware 20.0.1": "https://github.com/THZoria/NX_Firmware/releases/download/20.0.1/Firmware.20.0.1.zip",
-        "Firmware 20.0.0": "https://github.com/THZoria/NX_Firmware/releases/download/20.0.0/Firmware.20.0.0.zip",
-        "Firmware 19.0.1": "https://github.com/THZoria/NX_Firmware/releases/download/19.0.1/Firmware.19.0.1.zip",
-        "Firmware 19.0.0": "https://github.com/THZoria/NX_Firmware/releases/download/19.0.0/Firmware.19.0.0.zip",
-        "Firmware 18.1.0": "https://github.com/THZoria/NX_Firmware/releases/download/18.1.0/Firmware.18.1.0.zip",
-        "Firmware 18.0.1": "https://github.com/THZoria/NX_Firmware/releases/download/18.0.1/Firmware.18.0.1.zip",
-        "Firmware 18.0.0": "https://github.com/THZoria/NX_Firmware/releases/download/18.0.0/Firmware.18.0.0.zip",
-        "Firmware 17.0.1": "https://github.com/THZoria/NX_Firmware/releases/download/17.0.1/Firmware.17.0.1.zip",
-        "Firmware 17.0.0": "https://github.com/THZoria/NX_Firmware/releases/download/17.0.0/Firmware.17.0.0.zip",
-        "Firmware 16.1.0": "https://github.com/THZoria/NX_Firmware/releases/download/16.1.0/Firmware.16.1.0.zip",
-        "Firmware 16.0.3": "https://github.com/THZoria/NX_Firmware/releases/download/16.0.3/Firmware.16.0.3.zip",
-        "Firmware 16.0.2": "https://github.com/THZoria/NX_Firmware/releases/download/16.0.2/Firmware.16.0.2.zip",
-        "Firmware 16.0.1": "https://github.com/THZoria/NX_Firmware/releases/download/16.0.1/Firmware.16.0.1.zip",
-        "Firmware 16.0.0": "https://github.com/THZoria/NX_Firmware/releases/download/16.0.0/Firmware.16.0.0.zip",
-        "Firmware 15.0.1": "https://github.com/THZoria/NX_Firmware/releases/download/15.0.1/Firmware.15.0.1.zip",
-        "Firmware 15.0.0": "https://github.com/THZoria/NX_Firmware/releases/download/15.0.0/Firmware.15.0.0.zip",
-        "Firmware 14.1.2": "https://github.com/THZoria/NX_Firmware/releases/download/14.1.2/Firmware.14.1.2.zip",
-        "Firmware 14.1.1": "https://github.com/THZoria/NX_Firmware/releases/download/14.1.1/Firmware.14.1.1.zip",
-        "Firmware 14.1.0": "https://github.com/THZoria/NX_Firmware/releases/download/14.1.0/Firmware.14.1.0.zip",
-        "Firmware 14.0.0": "https://github.com/THZoria/NX_Firmware/releases/download/14.0.0/Firmware.14.0.0.zip",
-        "Firmware 13.2.1": "https://github.com/THZoria/NX_Firmware/releases/download/13.2.1/Firmware.13.2.1.zip",
-        "Firmware 13.2.0": "https://github.com/THZoria/NX_Firmware/releases/download/13.2.0/Firmware.13.2.0.zip",
-        "Firmware 13.1.0": "https://github.com/THZoria/NX_Firmware/releases/download/13.1.0/Firmware.13.1.0.zip",
-        "Firmware 13.0.0": "https://github.com/THZoria/NX_Firmware/releases/download/13.0.0/Firmware.13.0.0.zip",
-        "Firmware 12.1.0": "https://github.com/THZoria/NX_Firmware/releases/download/12.1.0/Firmware.12.1.0.zip",
-        "Hekate": "https://github.com/CTCaer/hekate/releases/download/v6.3.1/hekate_ctcaer_6.3.1_Nyx_1.7.0.zip"
+        "Update your app now bro!": "https://github.com/CTCaer/hekate/releases/download/v6.3.1/hekate_ctcaer_6.3.1_Nyx_1.7.0.zip"
     }
 }
